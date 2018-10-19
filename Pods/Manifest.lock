@@ -1,0 +1,22 @@
+PODS:
+  - ReSwift (4.0.1)
+  - SwiftLCS (1.3.3):
+    - SwiftLCS/Core (= 1.3.3)
+  - SwiftLCS/Core (1.3.3)
+
+DEPENDENCIES:
+  - ReSwift
+  - SwiftLCS
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReSwift
+    - SwiftLCS
+
+SPEC CHECKSUMS:
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  SwiftLCS: ff464ee5a4a5843a9b74aeaf156a3f6b8443e2f9
+
+PODFILE CHECKSUM: 193728b7e47f4adc2ad68ee72aa1f6d5b4aa6749
+
+COCOAPODS: 1.5.3

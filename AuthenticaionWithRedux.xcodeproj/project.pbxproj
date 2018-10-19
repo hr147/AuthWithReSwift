@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2C09D02168CA2900F56713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C09CF2168CA2900F56713 /* AppDelegate.swift */; };
+		BE2C09D52168CA2900F56713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C09D32168CA2900F56713 /* Main.storyboard */; };
+		BE2C09D72168CA2B00F56713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2C09D62168CA2B00F56713 /* Assets.xcassets */; };
+		BE2C09DA2168CA2B00F56713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C09D82168CA2B00F56713 /* LaunchScreen.storyboard */; };
+		BE2C09E22168CB8F00F56713 /* AuthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C09E12168CB8F00F56713 /* AuthTableViewController.swift */; };
+		BE2C09E42169320000F56713 /* CustomUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C09E32169320000F56713 /* CustomUITextField.swift */; };
+		BEFDDE022178D95600DF2E99 /* AuthRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDDE012178D95600DF2E99 /* AuthRedux.swift */; };
+		C0305C3FD153449BA148A281 /* Pods_AuthenticaionWithRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF5E9DFD54BE93F69EFE21B /* Pods_AuthenticaionWithRedux.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61E72649605F09017C484037 /* Pods-AuthenticaionWithRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthenticaionWithRedux.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux.release.xcconfig"; sourceTree = "<group>"; };
+		BE2C09CC2168CA2900F56713 /* AuthenticaionWithRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthenticaionWithRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C09CF2168CA2900F56713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2C09D42168CA2900F56713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2C09D62168CA2B00F56713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2C09D92168CA2B00F56713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2C09DB2168CA2B00F56713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2C09E12168CB8F00F56713 /* AuthTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTableViewController.swift; sourceTree = "<group>"; };
+		BE2C09E32169320000F56713 /* CustomUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITextField.swift; sourceTree = "<group>"; };
+		BEFDDE012178D95600DF2E99 /* AuthRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRedux.swift; sourceTree = "<group>"; };
+		E192D3F58E6EC4FDDA5B7253 /* Pods-AuthenticaionWithRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthenticaionWithRedux.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF5E9DFD54BE93F69EFE21B /* Pods_AuthenticaionWithRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticaionWithRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2C09C92168CA2900F56713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0305C3FD153449BA148A281 /* Pods_AuthenticaionWithRedux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0F552E9023D7AD0D25686C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5E9DFD54BE93F69EFE21B /* Pods_AuthenticaionWithRedux.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE0056212179B1A40098F5CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C09D62168CA2B00F56713 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE0056222179B1C90098F5CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BE93A4282179B2C10006BFF0 /* CustomUIElements */,
+				BE0056232179B1DB0098F5CE /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BE0056232179B1DB0098F5CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C09D82168CA2B00F56713 /* LaunchScreen.storyboard */,
+				BE2C09D32168CA2900F56713 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BE2C09C32168CA2900F56713 = {
+			isa = PBXGroup;
+			children = (
+				BE2C09CE2168CA2900F56713 /* AuthenticaionWithRedux */,
+				BE2C09CD2168CA2900F56713 /* Products */,
+				EA7D168C5D4E7FBF28F1466B /* Pods */,
+				9F0F552E9023D7AD0D25686C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2C09CD2168CA2900F56713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C09CC2168CA2900F56713 /* AuthenticaionWithRedux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2C09CE2168CA2900F56713 /* AuthenticaionWithRedux */ = {
+			isa = PBXGroup;
+			children = (
+				BE93A42A2179B2E90006BFF0 /* AppRoot */,
+				BE0056212179B1A40098F5CE /* Resources */,
+				BEFDDDFE2178D8B900DF2E99 /* Source */,
+			);
+			path = AuthenticaionWithRedux;
+			sourceTree = "<group>";
+		};
+		BE93A4282179B2C10006BFF0 /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				BE93A4292179B2D20006BFF0 /* TextFields */,
+			);
+			path = CustomUIElements;
+			sourceTree = "<group>";
+		};
+		BE93A4292179B2D20006BFF0 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C09E32169320000F56713 /* CustomUITextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		BE93A42A2179B2E90006BFF0 /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C09CF2168CA2900F56713 /* AppDelegate.swift */,
+				BE2C09DB2168CA2B00F56713 /* Info.plist */,
+			);
+			path = AppRoot;
+			sourceTree = "<group>";
+		};
+		BEFDDDFE2178D8B900DF2E99 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BE0056222179B1C90098F5CE /* UI */,
+				BEFDDDFF2178D8D500DF2E99 /* Modules */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BEFDDDFF2178D8D500DF2E99 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BEFDDE002178D8DE00DF2E99 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BEFDDE002178D8DE00DF2E99 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C09E12168CB8F00F56713 /* AuthTableViewController.swift */,
+				BEFDDE012178D95600DF2E99 /* AuthRedux.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EA7D168C5D4E7FBF28F1466B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E192D3F58E6EC4FDDA5B7253 /* Pods-AuthenticaionWithRedux.debug.xcconfig */,
+				61E72649605F09017C484037 /* Pods-AuthenticaionWithRedux.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2C09CB2168CA2900F56713 /* AuthenticaionWithRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2C09DE2168CA2B00F56713 /* Build configuration list for PBXNativeTarget "AuthenticaionWithRedux" */;
+			buildPhases = (
+				5DBB46DBA36C89A65F7BC868 /* [CP] Check Pods Manifest.lock */,
+				BE2C09C82168CA2900F56713 /* Sources */,
+				BE2C09C92168CA2900F56713 /* Frameworks */,
+				BE2C09CA2168CA2900F56713 /* Resources */,
+				585DA32C6663413D18C525B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuthenticaionWithRedux;
+			productName = AuthenticaionWithRedux;
+			productReference = BE2C09CC2168CA2900F56713 /* AuthenticaionWithRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2C09C42168CA2900F56713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Haroon Ur Rasheed";
+				TargetAttributes = {
+					BE2C09CB2168CA2900F56713 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = BE2C09C72168CA2900F56713 /* Build configuration list for PBXProject "AuthenticaionWithRedux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2C09C32168CA2900F56713;
+			productRefGroup = BE2C09CD2168CA2900F56713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2C09CB2168CA2900F56713 /* AuthenticaionWithRedux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2C09CA2168CA2900F56713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2C09DA2168CA2B00F56713 /* LaunchScreen.storyboard in Resources */,
+				BE2C09D72168CA2B00F56713 /* Assets.xcassets in Resources */,
+				BE2C09D52168CA2900F56713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		585DA32C6663413D18C525B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLCS/SwiftLCS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLCS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBB46DBA36C89A65F7BC868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthenticaionWithRedux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2C09C82168CA2900F56713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFDDE022178D95600DF2E99 /* AuthRedux.swift in Sources */,
+				BE2C09D02168CA2900F56713 /* AppDelegate.swift in Sources */,
+				BE2C09E42169320000F56713 /* CustomUITextField.swift in Sources */,
+				BE2C09E22168CB8F00F56713 /* AuthTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE2C09D32168CA2900F56713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2C09D42168CA2900F56713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2C09D82168CA2B00F56713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2C09D92168CA2B00F56713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2C09DC2168CA2B00F56713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE2C09DD2168CA2B00F56713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2C09DF2168CA2B00F56713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E192D3F58E6EC4FDDA5B7253 /* Pods-AuthenticaionWithRedux.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuthenticaionWithRedux/AppRoot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroon.AuthenticaionWithRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE2C09E02168CA2B00F56713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E72649605F09017C484037 /* Pods-AuthenticaionWithRedux.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuthenticaionWithRedux/AppRoot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroon.AuthenticaionWithRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2C09C72168CA2900F56713 /* Build configuration list for PBXProject "AuthenticaionWithRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2C09DC2168CA2B00F56713 /* Debug */,
+				BE2C09DD2168CA2B00F56713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2C09DE2168CA2B00F56713 /* Build configuration list for PBXNativeTarget "AuthenticaionWithRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2C09DF2168CA2B00F56713 /* Debug */,
+				BE2C09E02168CA2B00F56713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2C09C42168CA2900F56713 /* Project object */;
+}

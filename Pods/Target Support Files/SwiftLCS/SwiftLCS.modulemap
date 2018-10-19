@@ -1,0 +1,6 @@
+framework module SwiftLCS {
+  umbrella header "SwiftLCS-umbrella.h"
+
+  export *
+  module * { export * }
+}
