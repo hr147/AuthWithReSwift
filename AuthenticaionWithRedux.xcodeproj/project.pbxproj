@@ -13,6 +13,7 @@
 		BE2C09DA2168CA2B00F56713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C09D82168CA2B00F56713 /* LaunchScreen.storyboard */; };
 		BE2C09E22168CB8F00F56713 /* AuthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C09E12168CB8F00F56713 /* AuthTableViewController.swift */; };
 		BE2C09E42169320000F56713 /* CustomUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C09E32169320000F56713 /* CustomUITextField.swift */; };
+		BE7B67B8217C6C33008BD0F6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B67B7217C6C33008BD0F6 /* MessageView.swift */; };
 		BEFDDE022178D95600DF2E99 /* AuthRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFDDE012178D95600DF2E99 /* AuthRedux.swift */; };
 		C0305C3FD153449BA148A281 /* Pods_AuthenticaionWithRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF5E9DFD54BE93F69EFE21B /* Pods_AuthenticaionWithRedux.framework */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		BE2C09DB2168CA2B00F56713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE2C09E12168CB8F00F56713 /* AuthTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTableViewController.swift; sourceTree = "<group>"; };
 		BE2C09E32169320000F56713 /* CustomUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITextField.swift; sourceTree = "<group>"; };
+		BE7B67B7217C6C33008BD0F6 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		BEFDDE012178D95600DF2E99 /* AuthRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRedux.swift; sourceTree = "<group>"; };
 		E192D3F58E6EC4FDDA5B7253 /* Pods-AuthenticaionWithRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthenticaionWithRedux.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux.debug.xcconfig"; sourceTree = "<group>"; };
 		EDF5E9DFD54BE93F69EFE21B /* Pods_AuthenticaionWithRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticaionWithRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,9 +108,26 @@
 			path = AuthenticaionWithRedux;
 			sourceTree = "<group>";
 		};
+		BE7B67B3217B8219008BD0F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BE7B67B6217C6C04008BD0F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE7B67B7217C6C33008BD0F6 /* MessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BE93A4282179B2C10006BFF0 /* CustomUIElements */ = {
 			isa = PBXGroup;
 			children = (
+				BE7B67B6217C6C04008BD0F6 /* Views */,
+				BE7B67B3217B8219008BD0F6 /* Cells */,
 				BE93A4292179B2D20006BFF0 /* TextFields */,
 			);
 			path = CustomUIElements;
@@ -247,6 +266,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftLCS/SwiftLCS.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -254,6 +274,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLCS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -289,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7B67B8217C6C33008BD0F6 /* MessageView.swift in Sources */,
 				BEFDDE022178D95600DF2E99 /* AuthRedux.swift in Sources */,
 				BE2C09D02168CA2900F56713 /* AppDelegate.swift in Sources */,
 				BE2C09E42169320000F56713 /* CustomUITextField.swift in Sources */,

@@ -35,7 +35,9 @@ class AuthTableViewController: UITableViewController {
         Store<AuthState>(reducer: authReducer,state:authReducer(AuthAction.auth, nil))
     }()
     var authDataSource:[AuthCellType] = []
-    
+    var messageView:MessageViewable = MessageView()
+    var validator:AuthValidateable? = nil
+    let user:User = .init()
     
     lazy var backgroundImageView:UIImageView = {
         let image = #imageLiteral(resourceName: "bg_auth")
@@ -62,6 +64,19 @@ class AuthTableViewController: UITableViewController {
         //tableView configuration
         tableView.backgroundView = custombackgroundView
         tableView.contentInset = .init(top: backgroundImageView.bounds.height, left: 0, bottom: 0, right: 0)
+    }
+    
+    func dispatchAfterValidation(withAction action:AuthAction) {
+        
+        do {
+            try validator?.validate(withUser: user)
+            print("\(String(describing: user))") //
+           store.dispatch(action)
+        } catch let error as AuthError {
+            messageView.show(withMessage: error.description)
+        }catch{
+            messageView.show(withMessage: "Some thing went wrong.")
+        }
     }
     
     //MARK:- View LifeCycle
@@ -119,12 +134,29 @@ class AuthTableViewController: UITableViewController {
         }
     }
     
-   
-    
     // MARK: - User Actions
+    @IBAction func emailDidChange(_ sender: UITextField) {
+        user.email = sender.text ?? ""
+    }
+    
+    @IBAction func nameDidChange(_ sender: UITextField) {
+        user.name = sender.text ?? ""
+    }
+    
+    @IBAction func passwordDidChange(_ sender: UITextField) {
+        user.password = sender.text ?? ""
+    }
+    
+    @IBAction func userNameDidChange(_ sender: UITextField) {
+        user.userName = sender.text ?? ""
+    }
     
     @IBAction func loginTouchedUp(_ sender: UIButton){
-        store.dispatch(AuthAction.login)
+        if case .login = store.state.authViewState {
+            dispatchAfterValidation(withAction: .auth)
+        }else{
+            store.dispatch(AuthAction.login)
+        }
     }
     
     @IBAction func forgotTouchedUp(_ sender: UIButton){
@@ -136,7 +168,11 @@ class AuthTableViewController: UITableViewController {
     }
     
     @IBAction func createAccountTouchedUp(_ sender: UIButton){
-        store.dispatch(AuthAction.auth)
+        if case .create = store.state.authViewState{
+            dispatchAfterValidation(withAction: .auth)
+        }else{
+            store.dispatch(AuthAction.create)
+        }
     }
     
     @IBAction func alreadyHaveAccountTouchedUp(_ sender: UIButton) {
@@ -144,7 +180,7 @@ class AuthTableViewController: UITableViewController {
     }
     
     @IBAction func sendTouchedUp(_ sender: UIButton) {
-        store.dispatch(AuthAction.auth)
+        dispatchAfterValidation(withAction: .auth)
     }
     
 }
@@ -158,7 +194,8 @@ extension AuthTableViewController:StoreSubscriber{
             tableView.reloadData()
             return
         }
-        
+       
+        validator = state.validator
         transitionToViewState(newDataSource: state.dataSource)
     }
     

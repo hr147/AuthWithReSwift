@@ -7,159 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E870BC1BB6A6B14E6432CF3B3B3624 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D3896DA8E3148E81F64E64AAEEB16C /* Middleware.swift */; };
-		134F3A37358E8968AF1F9A552EF5CB4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		1F51EBE893CAA4A1BDEC4DB2CF6440F9 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05E0E6195C9F8BE7F79D76BB61C1C88 /* StoreSubscriber.swift */; };
-		26F9402E50EF47E00FDF96D7AA567709 /* Pods-AuthenticaionWithRedux-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7062A4E367A0D00C583F61DF43A93E68 /* Pods-AuthenticaionWithRedux-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D07D324138C6143F1B1CB4F0CF6850F /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8246B17DC66BCFD24BBDCF2EFFFCF8CE /* Subscription.swift */; };
-		374CE3E032617AE085478DCC18D474B2 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC7C703F86128C001C290430618E49 /* Action.swift */; };
-		41FD0C397235371E65489CFA33839C65 /* SwiftLCS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3942573019148E42DCA605B5FA92B9C9 /* SwiftLCS-dummy.m */; };
-		4401994B2304B1DD6620787493A4FE0F /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628757262027D9CF30CFEB4C1DA361E2 /* Coding.swift */; };
-		698431A0AAB0BAB2FD15B12300F660EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		70D90770B09D0BEF2E7EACF9F317EFBD /* Pods-AuthenticaionWithRedux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0C20E6BF80003824AAD5C9A424E73 /* Pods-AuthenticaionWithRedux-dummy.m */; };
-		752B05BD64C2B83560496F28EE9B601B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8260121B5D1AEC39FA9C07EEBCC6D507 /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE5428E1DCAA77B21105A619F99B30D /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		921B48C80F0B04BEB171F0A421107D98 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE10C72CFD9DEA059B9B5239611234F /* Reducer.swift */; };
-		9C54FCD449B67CD515F38BDD2723A82B /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6943C318390FE08B868938D910E1B3C0 /* StoreType.swift */; };
-		A768DF3DD22AE4A12E24C29FB6EB0C7D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46411D388884BED1C039A832F9D5FB /* Store.swift */; };
-		B14619B4E37B20BDC4F303D28D28AD24 /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF208CD0DC6E2FC8270448CB79DBB06 /* ReSwift-dummy.m */; };
-		B690B2B7AB7EFFB22B5AC2185639883F /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D289F6D86A413CF8B73EDF2416D5DFA /* DispatchingStoreType.swift */; };
-		BAF20030FC359487EF4DEAACE13AF70E /* SwiftLCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BDCD3AD47217883A838B7B68C2ABB3 /* SwiftLCS.swift */; };
-		BF13DB907BB75D74409CBF4E75FE6B14 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC09221E71AAE6D35BB7705254FEDA8 /* State.swift */; };
-		E1F6E97D9942C9CC514DF7116DC6D9A5 /* SwiftLCS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDD882B7DEA1ADCDACF652C03363185 /* SwiftLCS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC0C822D236D9B54A8D7EF510BEEFC89 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5639A8FB8EDAE5CFE1936A0C42DEC9 /* Assertions.swift */; };
-		F959E30BC17B9A5102CD76B5A3D5C47F /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA9BDF17248D9DE25C4B33C778F6000 /* TypeHelper.swift */; };
+		08DF6A94C0D18237E5D40AB517EE10AC /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF6345DD7703745963851D9D70E356 /* Middleware.swift */; };
+		2F9AE7FA83B46E255478E7F111180256 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CE7AFEE6AFCDFCA16E6E0ED5D106E /* StoreType.swift */; };
+		3D51933F4C341A378D43E43640D2E912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		5B444D09279809B8BEC7C647B042115C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5C9B7FB53B811CCB5D539E82638F7 /* Store.swift */; };
+		61E6D3AFAA026980257A767DDA891D51 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476A4C00F8B5A363B16CE705B500C29 /* Reducer.swift */; };
+		696638386073D3672AAA4B1E711F2CAF /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA22B06D928CA84AAFA43C1ABED338E7 /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5E2A4570C640B0E819234E58D9B0F9 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126FC88BC9DD73133FE667C08D2B7EB /* Coding.swift */; };
+		70880C5FCFBC7A6950425CF8ECB24178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		751EF37C28C5B23CF249D356A5500BD8 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68732945A25005141F178E8EBD9D85E /* Action.swift */; };
+		7CA37CFF809FDA0163666E2B6EEB7747 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A00B0BE659BEA88D74D9B45C68E28817 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90786FCE2B1638675FCCF03B9B4934E7 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86B84AD50DD8B6DE0CBFB517DC1A80E /* Subscription.swift */; };
+		9186868CA7AF6C73791F8D440B0A56A2 /* SwiftLCS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2A1DAF3AF0C47AB7209B4EF0E75EFD /* SwiftLCS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9349F00C54D8BB8DA7C97A1EC3DE03BA /* Pods-AuthenticaionWithRedux-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7062A4E367A0D00C583F61DF43A93E68 /* Pods-AuthenticaionWithRedux-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C211642F6588A154A4A9DB95C57CA1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */; };
+		A1431488141894606995E5BF940FCC03 /* SwiftLCS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE83CB90DD4DF31872B9307A9F59C14 /* SwiftLCS-dummy.m */; };
+		A2159907845563424ED46D40D0C4DDCE /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF0B80EB6ED91CB845E22A1D24CE27 /* State.swift */; };
+		AAAF78B693550E3CEAFCC6A37FB5282F /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30303B17387DA0F423E01CAD738BB779 /* Toast-Swift-dummy.m */; };
+		ACDA7C37BB8F3AEF753B746D9E11BEEE /* SwiftLCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92529B76C12A321E0B265A1B77DFCF0 /* SwiftLCS.swift */; };
+		B5598F9FD0DB68B323F59C19392648B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		C4DC4F54B193BAE216CC0682481827F9 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D4AD274FB2AC52197908FF01697F2 /* DispatchingStoreType.swift */; };
+		CA1F8610F6273BA3D70E1305FA50564E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		D07B22B575959C242A2CA880385B880C /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85ACCB0EF370D1BF81E55F182301715 /* Assertions.swift */; };
+		DAE6872185A1D06F4522DB8B5FA79F7D /* Pods-AuthenticaionWithRedux-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0C20E6BF80003824AAD5C9A424E73 /* Pods-AuthenticaionWithRedux-dummy.m */; };
+		E2DB013BA4FB0BC992B98A888B5B6A89 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D3B17F636E2167E23ADDD36DA94DEA /* StoreSubscriber.swift */; };
+		E9CA4A0B8E7E539D2C7A4EF1D20FB6B7 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7853F57827356ED96AFF8AB66DCDCEB /* Toast.swift */; };
+		ECE3E73FF41BBB12CFC3AE0E5FB88165 /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C885D7A30790F552B4D3B589C6F3DB9E /* TypeHelper.swift */; };
+		F4061A6CA222D75BDB2BB18FCB8825F1 /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E061BC12E6FD1224E62C094B61E942 /* ReSwift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		461F864648E4ADC16FE12AAE4765BE20 /* PBXContainerItemProxy */ = {
+		80A47CD7D1EF9AE716BE958D088B88CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C43639C165F3292A138224A99B4BCAA9;
+			remoteGlobalIDString = 0D497A4190760C6464CF54B8160387A8;
 			remoteInfo = ReSwift;
 		};
-		C61EFAEC71F2E257195A4E02103BAD1C /* PBXContainerItemProxy */ = {
+		9F94860DCE94A940ADFF8F5A613E913A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 135B27ED01A9F13B9AE7B5E138A1CC8D;
+			remoteGlobalIDString = 62374D62BFFA00755FDB6A56F1891F5E;
+			remoteInfo = "Toast-Swift";
+		};
+		EAFAF93D6EA8FE8A346BBEB1F1316B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A5EF6D8A732BB06E51424E60F6A281;
 			remoteInfo = SwiftLCS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D289F6D86A413CF8B73EDF2416D5DFA /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		02D3B17F636E2167E23ADDD36DA94DEA /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		0F9310556BBE996AE628441592FB1181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0FE0C20E6BF80003824AAD5C9A424E73 /* Pods-AuthenticaionWithRedux-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AuthenticaionWithRedux-dummy.m"; sourceTree = "<group>"; };
-		149A241D58F06569F21FD55BB9740DD1 /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
-		1DE5428E1DCAA77B21105A619F99B30D /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
-		1DF1A8243568BA77F850AB9F0F234027 /* SwiftLCS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLCS-prefix.pch"; sourceTree = "<group>"; };
-		23BDCD3AD47217883A838B7B68C2ABB3 /* SwiftLCS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftLCS.swift; path = SwiftLCS/SwiftLCS.swift; sourceTree = "<group>"; };
-		2CD5CCD4FC7A371FDCF3D828D3E44D21 /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
-		38BC7C703F86128C001C290430618E49 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
-		3942573019148E42DCA605B5FA92B9C9 /* SwiftLCS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLCS-dummy.m"; sourceTree = "<group>"; };
-		3F5639A8FB8EDAE5CFE1936A0C42DEC9 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
-		519E06BD13E299305CBD667A473FD88D /* SwiftLCS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLCS.xcconfig; sourceTree = "<group>"; };
-		5927BB00A1D0AE61A04160B85A925791 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1112F84CA188BBB4A408DF67FB87EDC7 /* SwiftLCS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftLCS.modulemap; sourceTree = "<group>"; };
+		124E5010327BEDD961B68547F78A56DE /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		30303B17387DA0F423E01CAD738BB779 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		4E2A1DAF3AF0C47AB7209B4EF0E75EFD /* SwiftLCS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLCS-umbrella.h"; sourceTree = "<group>"; };
+		5521978CB6626AB11B39F04DB438BF4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5987EA264BB16CCE92251992AF3850EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD2B6956F0A83CD42A712E64846DA7E /* Pods-AuthenticaionWithRedux-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuthenticaionWithRedux-frameworks.sh"; sourceTree = "<group>"; };
-		5FA9BDF17248D9DE25C4B33C778F6000 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
-		628757262027D9CF30CFEB4C1DA361E2 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
-		6943C318390FE08B868938D910E1B3C0 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		5DF2048D67618ECD16B34CEAF55E3325 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FFE0207B5F3552D74AEF88EEB05218 /* Pods_AuthenticaionWithRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticaionWithRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6126FC88BC9DD73133FE667C08D2B7EB /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		641099979EB369FEA1BDEC61BC7DDEBE /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
 		6DA3EC7B3316849E139BF88616F0CF54 /* Pods-AuthenticaionWithRedux.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AuthenticaionWithRedux.modulemap"; sourceTree = "<group>"; };
+		6DCF0B80EB6ED91CB845E22A1D24CE27 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
 		7062A4E367A0D00C583F61DF43A93E68 /* Pods-AuthenticaionWithRedux-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AuthenticaionWithRedux-umbrella.h"; sourceTree = "<group>"; };
-		70D3896DA8E3148E81F64E64AAEEB16C /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
-		8246B17DC66BCFD24BBDCF2EFFFCF8CE /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
-		83695CAB2A69B5C323E2D7D98BCFC9C7 /* SwiftLCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A46411D388884BED1C039A832F9D5FB /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
-		8DC09221E71AAE6D35BB7705254FEDA8 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
-		8EE10C72CFD9DEA059B9B5239611234F /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		737129AD7BF6A02D22FB66211FA52187 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+		7430FE564EB8153496F2587DF42A70DD /* SwiftLCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E061BC12E6FD1224E62C094B61E942 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		79FF6345DD7703745963851D9D70E356 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		8476A4C00F8B5A363B16CE705B500C29 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BDD882B7DEA1ADCDACF652C03363185 /* SwiftLCS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLCS-umbrella.h"; sourceTree = "<group>"; };
+		98A03ACF513EDD9C1BA0520401D0BF28 /* SwiftLCS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLCS-prefix.pch"; sourceTree = "<group>"; };
 		9CCB6A6102FE27CFAD5F5C3BFCCA329D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1EF7C7E59F2811C6C3747236F57CBC3 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A84F6F202440ADF1FF92A0237F58F36D /* SwiftLCS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftLCS.modulemap; sourceTree = "<group>"; };
-		AAF208CD0DC6E2FC8270448CB79DBB06 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
-		BAB11365CA47D96C3D58C15E9630B1B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A00B0BE659BEA88D74D9B45C68E28817 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		A68732945A25005141F178E8EBD9D85E /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		A7549032AE387CB45810D8224FBDD149 /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		ABD5C9B7FB53B811CCB5D539E82638F7 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		AE2D4AD274FB2AC52197908FF01697F2 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		B0267145202A8702B28B0AE58CB7F8AC /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
+		B4F4AD53037F6A0648A82DE4EB169AB1 /* SwiftLCS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLCS.xcconfig; sourceTree = "<group>"; };
+		B85ACCB0EF370D1BF81E55F182301715 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
 		C485DF2DC77A23E65DAE6F12C79445EA /* Pods-AuthenticaionWithRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthenticaionWithRedux.debug.xcconfig"; sourceTree = "<group>"; };
+		C885D7A30790F552B4D3B589C6F3DB9E /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
+		C92529B76C12A321E0B265A1B77DFCF0 /* SwiftLCS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftLCS.swift; path = SwiftLCS/SwiftLCS.swift; sourceTree = "<group>"; };
+		CAE83CB90DD4DF31872B9307A9F59C14 /* SwiftLCS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLCS-dummy.m"; sourceTree = "<group>"; };
 		CD385B2D6DC9F8EBFA80532ED75A9C4C /* Pods-AuthenticaionWithRedux-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AuthenticaionWithRedux-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7853F57827356ED96AFF8AB66DCDCEB /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
 		E0938DD582F92506C99CB8D1F634FBA5 /* Pods-AuthenticaionWithRedux-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AuthenticaionWithRedux-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E821FC5B39A400FFCD03AF500A0B56A3 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
-		F05E0E6195C9F8BE7F79D76BB61C1C88 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
-		F3C32418F6B35CEF77FA383E60F62AB2 /* Pods_AuthenticaionWithRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticaionWithRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DA7086B4C2EF01728DDF93EAD0E64F /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		E6C511439BF0F7B5C7AB547F52F44F15 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA22B06D928CA84AAFA43C1ABED338E7 /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		EB4CE7AFEE6AFCDFCA16E6E0ED5D106E /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		F86B84AD50DD8B6DE0CBFB517DC1A80E /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		F9D7251C7F4CF72C0B989419E5CC30B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDABAF65981E583509D9925EB07A6F30 /* Pods-AuthenticaionWithRedux-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AuthenticaionWithRedux-resources.sh"; sourceTree = "<group>"; };
 		FF751374DF3A4E78BA7E868FD81B6E2A /* Pods-AuthenticaionWithRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AuthenticaionWithRedux.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22F1DB0D2C5771474EC7ABDBE41C3A34 /* Frameworks */ = {
+		2E11552146CC87DA10A064DFA80D57D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134F3A37358E8968AF1F9A552EF5CB4E /* Foundation.framework in Frameworks */,
+				B5598F9FD0DB68B323F59C19392648B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C254AA03D951A9E815355D4EE7AB9B5F /* Frameworks */ = {
+		593FA38B50589C60235FF6DC875C6AE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752B05BD64C2B83560496F28EE9B601B /* Foundation.framework in Frameworks */,
+				CA1F8610F6273BA3D70E1305FA50564E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC968FD35F666FC1C49DAE96E30989D8 /* Frameworks */ = {
+		B324DF7867F9769BB4D665505F204D6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				698431A0AAB0BAB2FD15B12300F660EE /* Foundation.framework in Frameworks */,
+				70880C5FCFBC7A6950425CF8ECB24178 /* Foundation.framework in Frameworks */,
+				9C211642F6588A154A4A9DB95C57CA1C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BFC51581BA6800967D15F3E705E286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D51933F4C341A378D43E43640D2E912 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CEE4FDAF753BCD6EACA496E207BC80C /* Support Files */ = {
+		0D8828345A79410F788D1F300F46BE1A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5927BB00A1D0AE61A04160B85A925791 /* Info.plist */,
-				A84F6F202440ADF1FF92A0237F58F36D /* SwiftLCS.modulemap */,
-				519E06BD13E299305CBD667A473FD88D /* SwiftLCS.xcconfig */,
-				3942573019148E42DCA605B5FA92B9C9 /* SwiftLCS-dummy.m */,
-				1DF1A8243568BA77F850AB9F0F234027 /* SwiftLCS-prefix.pch */,
-				9BDD882B7DEA1ADCDACF652C03363185 /* SwiftLCS-umbrella.h */,
+				5521978CB6626AB11B39F04DB438BF4F /* Info.plist */,
+				1112F84CA188BBB4A408DF67FB87EDC7 /* SwiftLCS.modulemap */,
+				B4F4AD53037F6A0648A82DE4EB169AB1 /* SwiftLCS.xcconfig */,
+				CAE83CB90DD4DF31872B9307A9F59C14 /* SwiftLCS-dummy.m */,
+				98A03ACF513EDD9C1BA0520401D0BF28 /* SwiftLCS-prefix.pch */,
+				4E2A1DAF3AF0C47AB7209B4EF0E75EFD /* SwiftLCS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftLCS";
 			sourceTree = "<group>";
 		};
-		3D8EA192CE2D0BC67ADC704A461CC9D1 /* ReSwift */ = {
+		0FB1B13AA84DB7CC065792420B138AB6 /* Toast-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				38BC7C703F86128C001C290430618E49 /* Action.swift */,
-				3F5639A8FB8EDAE5CFE1936A0C42DEC9 /* Assertions.swift */,
-				628757262027D9CF30CFEB4C1DA361E2 /* Coding.swift */,
-				0D289F6D86A413CF8B73EDF2416D5DFA /* DispatchingStoreType.swift */,
-				70D3896DA8E3148E81F64E64AAEEB16C /* Middleware.swift */,
-				8EE10C72CFD9DEA059B9B5239611234F /* Reducer.swift */,
-				8DC09221E71AAE6D35BB7705254FEDA8 /* State.swift */,
-				8A46411D388884BED1C039A832F9D5FB /* Store.swift */,
-				F05E0E6195C9F8BE7F79D76BB61C1C88 /* StoreSubscriber.swift */,
-				6943C318390FE08B868938D910E1B3C0 /* StoreType.swift */,
-				8246B17DC66BCFD24BBDCF2EFFFCF8CE /* Subscription.swift */,
-				5FA9BDF17248D9DE25C4B33C778F6000 /* TypeHelper.swift */,
-				ED25FF4140AC81913065D538412594F4 /* Support Files */,
+				D7853F57827356ED96AFF8AB66DCDCEB /* Toast.swift */,
+				FC618F329DE986575BDF07875DA032F3 /* Support Files */,
 			);
-			path = ReSwift;
+			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
-		56748633600E4612562E7C3797A30D86 /* SwiftLCS */ = {
+		3F01B3D550E81CE196E016D431FCC388 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				ED34A0105B2483572EF15A5E4AAC390A /* Core */,
-				2CEE4FDAF753BCD6EACA496E207BC80C /* Support Files */,
+				C92529B76C12A321E0B265A1B77DFCF0 /* SwiftLCS.swift */,
 			);
-			path = SwiftLCS;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56933BB70C933E0BF63210DD87D76AD0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		558BF15D4AF3C4084873E56F9908FBB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDC9BEA44864AB037C859D70CE6B9F6 /* ReSwift */,
+				8D70164DB65637781EC5DC39AD3262AA /* SwiftLCS */,
+				0FB1B13AA84DB7CC065792420B138AB6 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56933BB70C933E0BF63210DD87D76AD0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F9310556BBE996AE628441592FB1181 /* Foundation.framework */,
+				9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BDC9BEA44864AB037C859D70CE6B9F6 /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A68732945A25005141F178E8EBD9D85E /* Action.swift */,
+				B85ACCB0EF370D1BF81E55F182301715 /* Assertions.swift */,
+				6126FC88BC9DD73133FE667C08D2B7EB /* Coding.swift */,
+				AE2D4AD274FB2AC52197908FF01697F2 /* DispatchingStoreType.swift */,
+				79FF6345DD7703745963851D9D70E356 /* Middleware.swift */,
+				8476A4C00F8B5A363B16CE705B500C29 /* Reducer.swift */,
+				6DCF0B80EB6ED91CB845E22A1D24CE27 /* State.swift */,
+				ABD5C9B7FB53B811CCB5D539E82638F7 /* Store.swift */,
+				02D3B17F636E2167E23ADDD36DA94DEA /* StoreSubscriber.swift */,
+				EB4CE7AFEE6AFCDFCA16E6E0ED5D106E /* StoreType.swift */,
+				F86B84AD50DD8B6DE0CBFB517DC1A80E /* Subscription.swift */,
+				C885D7A30790F552B4D3B589C6F3DB9E /* TypeHelper.swift */,
+				7D36FD098B8E910A811353F932F53B8C /* Support Files */,
+			);
+			path = ReSwift;
 			sourceTree = "<group>";
 		};
 		5D54DEABAB0684D8DFBBF92928C409BE /* Pods-AuthenticaionWithRedux */ = {
@@ -180,24 +245,6 @@
 			path = "Target Support Files/Pods-AuthenticaionWithRedux";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6AE8C6DC625357A9F83289D15C670FA4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F3C32418F6B35CEF77FA383E60F62AB2 /* Pods_AuthenticaionWithRedux.framework */,
-				A1EF7C7E59F2811C6C3747236F57CBC3 /* ReSwift.framework */,
-				83695CAB2A69B5C323E2D7D98BCFC9C7 /* SwiftLCS.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6E8A060C739E6D634E57D79F1D0F2295 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,132 +253,111 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		7D36FD098B8E910A811353F932F53B8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BB93FDB212D9F5D8FD31E945EEAC81EB /* Pods */,
-				6AE8C6DC625357A9F83289D15C670FA4 /* Products */,
-				6E8A060C739E6D634E57D79F1D0F2295 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BB93FDB212D9F5D8FD31E945EEAC81EB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D8EA192CE2D0BC67ADC704A461CC9D1 /* ReSwift */,
-				56748633600E4612562E7C3797A30D86 /* SwiftLCS */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ED25FF4140AC81913065D538412594F4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BAB11365CA47D96C3D58C15E9630B1B8 /* Info.plist */,
-				149A241D58F06569F21FD55BB9740DD1 /* ReSwift.modulemap */,
-				2CD5CCD4FC7A371FDCF3D828D3E44D21 /* ReSwift.xcconfig */,
-				AAF208CD0DC6E2FC8270448CB79DBB06 /* ReSwift-dummy.m */,
-				E821FC5B39A400FFCD03AF500A0B56A3 /* ReSwift-prefix.pch */,
-				1DE5428E1DCAA77B21105A619F99B30D /* ReSwift-umbrella.h */,
+				5987EA264BB16CCE92251992AF3850EB /* Info.plist */,
+				A7549032AE387CB45810D8224FBDD149 /* ReSwift.modulemap */,
+				B0267145202A8702B28B0AE58CB7F8AC /* ReSwift.xcconfig */,
+				76E061BC12E6FD1224E62C094B61E942 /* ReSwift-dummy.m */,
+				737129AD7BF6A02D22FB66211FA52187 /* ReSwift-prefix.pch */,
+				EA22B06D928CA84AAFA43C1ABED338E7 /* ReSwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReSwift";
 			sourceTree = "<group>";
 		};
-		ED34A0105B2483572EF15A5E4AAC390A /* Core */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				23BDCD3AD47217883A838B7B68C2ABB3 /* SwiftLCS.swift */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				558BF15D4AF3C4084873E56F9908FBB3 /* Pods */,
+				CFA45A38180FAD49215180AF83C37BBE /* Products */,
+				6E8A060C739E6D634E57D79F1D0F2295 /* Targets Support Files */,
 			);
-			name = Core;
+			sourceTree = "<group>";
+		};
+		8D70164DB65637781EC5DC39AD3262AA /* SwiftLCS */ = {
+			isa = PBXGroup;
+			children = (
+				3F01B3D550E81CE196E016D431FCC388 /* Core */,
+				0D8828345A79410F788D1F300F46BE1A /* Support Files */,
+			);
+			path = SwiftLCS;
+			sourceTree = "<group>";
+		};
+		CFA45A38180FAD49215180AF83C37BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FFE0207B5F3552D74AEF88EEB05218 /* Pods_AuthenticaionWithRedux.framework */,
+				5DF2048D67618ECD16B34CEAF55E3325 /* ReSwift.framework */,
+				7430FE564EB8153496F2587DF42A70DD /* SwiftLCS.framework */,
+				E6C511439BF0F7B5C7AB547F52F44F15 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC618F329DE986575BDF07875DA032F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D7251C7F4CF72C0B989419E5CC30B6 /* Info.plist */,
+				E5DA7086B4C2EF01728DDF93EAD0E64F /* Toast-Swift.modulemap */,
+				124E5010327BEDD961B68547F78A56DE /* Toast-Swift.xcconfig */,
+				30303B17387DA0F423E01CAD738BB779 /* Toast-Swift-dummy.m */,
+				641099979EB369FEA1BDEC61BC7DDEBE /* Toast-Swift-prefix.pch */,
+				A00B0BE659BEA88D74D9B45C68E28817 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		876DB17A05FE6C9007C41C279DE5968C /* Headers */ = {
+		519E04DB1E8099D29F3E49198380E6EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F6E97D9942C9CC514DF7116DC6D9A5 /* SwiftLCS-umbrella.h in Headers */,
+				7CA37CFF809FDA0163666E2B6EEB7747 /* Toast-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87DFB5F95E76AFF982D41E4BBC907616 /* Headers */ = {
+		5291D25BFE2204909409587AE8DFE887 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F9402E50EF47E00FDF96D7AA567709 /* Pods-AuthenticaionWithRedux-umbrella.h in Headers */,
+				696638386073D3672AAA4B1E711F2CAF /* ReSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9AB7275513CFCA18B7323D8EFF2432C /* Headers */ = {
+		71030980EBAC4AD95A3EBEEAEDD60E8B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8260121B5D1AEC39FA9C07EEBCC6D507 /* ReSwift-umbrella.h in Headers */,
+				9349F00C54D8BB8DA7C97A1EC3DE03BA /* Pods-AuthenticaionWithRedux-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A98C32B36D6BCB107D94F9C63BA7C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9186868CA7AF6C73791F8D440B0A56A2 /* SwiftLCS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D8846C4C3A1612B7343780F5ED2DCCF /* Pods-AuthenticaionWithRedux */ = {
+		0D497A4190760C6464CF54B8160387A8 /* ReSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FEB2D764CC648B0AF566EFA453A4AE9 /* Build configuration list for PBXNativeTarget "Pods-AuthenticaionWithRedux" */;
+			buildConfigurationList = 77EC72464F668AD75A5720CF5EC99267 /* Build configuration list for PBXNativeTarget "ReSwift" */;
 			buildPhases = (
-				87DFB5F95E76AFF982D41E4BBC907616 /* Headers */,
-				2FFA6D5A15661281CA5F61E66E6552A6 /* Sources */,
-				22F1DB0D2C5771474EC7ABDBE41C3A34 /* Frameworks */,
-				30862B0FB198D2A928A9EEFDE1D7FE9F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				069FBA5D3371ABED0FD8441571323897 /* PBXTargetDependency */,
-				8CDBC9C562475F48FBCB4B8AC76BA0FA /* PBXTargetDependency */,
-			);
-			name = "Pods-AuthenticaionWithRedux";
-			productName = "Pods-AuthenticaionWithRedux";
-			productReference = F3C32418F6B35CEF77FA383E60F62AB2 /* Pods_AuthenticaionWithRedux.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		135B27ED01A9F13B9AE7B5E138A1CC8D /* SwiftLCS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 635382E644180376552965731A5832DF /* Build configuration list for PBXNativeTarget "SwiftLCS" */;
-			buildPhases = (
-				876DB17A05FE6C9007C41C279DE5968C /* Headers */,
-				1AE2C71F035640043918D3BA2A2EE66F /* Sources */,
-				CC968FD35F666FC1C49DAE96E30989D8 /* Frameworks */,
-				F0483F2136D6092B670C1207833F966A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftLCS;
-			productName = SwiftLCS;
-			productReference = 83695CAB2A69B5C323E2D7D98BCFC9C7 /* SwiftLCS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C43639C165F3292A138224A99B4BCAA9 /* ReSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8444AD587707123C1BF91C7C18695E4 /* Build configuration list for PBXNativeTarget "ReSwift" */;
-			buildPhases = (
-				F9AB7275513CFCA18B7323D8EFF2432C /* Headers */,
-				289D459CFAEFB7E7DD3AA953F111F0A2 /* Sources */,
-				C254AA03D951A9E815355D4EE7AB9B5F /* Frameworks */,
-				F6608B568FDBD37D4E8E514EEDAFFBC3 /* Resources */,
+				5291D25BFE2204909409587AE8DFE887 /* Headers */,
+				938D9E07B15C8B5799D7C4179240BFBD /* Sources */,
+				2E11552146CC87DA10A064DFA80D57D5 /* Frameworks */,
+				EB54805D64432D724584F2D078EEEEF7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +365,64 @@
 			);
 			name = ReSwift;
 			productName = ReSwift;
-			productReference = A1EF7C7E59F2811C6C3747236F57CBC3 /* ReSwift.framework */;
+			productReference = 5DF2048D67618ECD16B34CEAF55E3325 /* ReSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62374D62BFFA00755FDB6A56F1891F5E /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C63AEF93CC9B8BF240D2DD75D1C57E7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				519E04DB1E8099D29F3E49198380E6EF /* Headers */,
+				4A44EA01DBC74A91EFB0AE1D07549C49 /* Sources */,
+				B324DF7867F9769BB4D665505F204D6E /* Frameworks */,
+				7554E52C92D80D9992959FB359788D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = E6C511439BF0F7B5C7AB547F52F44F15 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79A5EF6D8A732BB06E51424E60F6A281 /* SwiftLCS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AC0A81D1FF9D4250F66FD4BACF2EF0 /* Build configuration list for PBXNativeTarget "SwiftLCS" */;
+			buildPhases = (
+				A4A98C32B36D6BCB107D94F9C63BA7C3 /* Headers */,
+				448D1944FC75DA2059506E143B2A347E /* Sources */,
+				593FA38B50589C60235FF6DC875C6AE5 /* Frameworks */,
+				C7AC4504D368EAB2318A26B9F35A9F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLCS;
+			productName = SwiftLCS;
+			productReference = 7430FE564EB8153496F2587DF42A70DD /* SwiftLCS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA83F99F345A53310FDE8D76696F6028 /* Pods-AuthenticaionWithRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9442274569D7D767D54A65194B2C8B13 /* Build configuration list for PBXNativeTarget "Pods-AuthenticaionWithRedux" */;
+			buildPhases = (
+				71030980EBAC4AD95A3EBEEAEDD60E8B /* Headers */,
+				2E5AF630ADD3B1F391F1A67E19BAE100 /* Sources */,
+				D1BFC51581BA6800967D15F3E705E286 /* Frameworks */,
+				FCFF5EE8FD1E9DD29F83E101DD21A38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CBF95FB3A21AE0AE47F299193C3B25 /* PBXTargetDependency */,
+				B1918B1834A93CE7815237ACB4734D8F /* PBXTargetDependency */,
+				67ECDA5D8227C832DCE5DFE42B4DF828 /* PBXTargetDependency */,
+			);
+			name = "Pods-AuthenticaionWithRedux";
+			productName = "Pods-AuthenticaionWithRedux";
+			productReference = 60FFE0207B5F3552D74AEF88EEB05218 /* Pods_AuthenticaionWithRedux.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -351,7 +434,7 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
-					135B27ED01A9F13B9AE7B5E138A1CC8D = {
+					79A5EF6D8A732BB06E51424E60F6A281 = {
 						LastSwiftMigration = 1000;
 					};
 				};
@@ -364,33 +447,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6AE8C6DC625357A9F83289D15C670FA4 /* Products */;
+			productRefGroup = CFA45A38180FAD49215180AF83C37BBE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D8846C4C3A1612B7343780F5ED2DCCF /* Pods-AuthenticaionWithRedux */,
-				C43639C165F3292A138224A99B4BCAA9 /* ReSwift */,
-				135B27ED01A9F13B9AE7B5E138A1CC8D /* SwiftLCS */,
+				AA83F99F345A53310FDE8D76696F6028 /* Pods-AuthenticaionWithRedux */,
+				0D497A4190760C6464CF54B8160387A8 /* ReSwift */,
+				79A5EF6D8A732BB06E51424E60F6A281 /* SwiftLCS */,
+				62374D62BFFA00755FDB6A56F1891F5E /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30862B0FB198D2A928A9EEFDE1D7FE9F /* Resources */ = {
+		7554E52C92D80D9992959FB359788D74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0483F2136D6092B670C1207833F966A /* Resources */ = {
+		C7AC4504D368EAB2318A26B9F35A9F0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6608B568FDBD37D4E8E514EEDAFFBC3 /* Resources */ = {
+		EB54805D64432D724584F2D078EEEEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF5EE8FD1E9DD29F83E101DD21A38C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,156 +491,79 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AE2C71F035640043918D3BA2A2EE66F /* Sources */ = {
+		2E5AF630ADD3B1F391F1A67E19BAE100 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41FD0C397235371E65489CFA33839C65 /* SwiftLCS-dummy.m in Sources */,
-				BAF20030FC359487EF4DEAACE13AF70E /* SwiftLCS.swift in Sources */,
+				DAE6872185A1D06F4522DB8B5FA79F7D /* Pods-AuthenticaionWithRedux-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		289D459CFAEFB7E7DD3AA953F111F0A2 /* Sources */ = {
+		448D1944FC75DA2059506E143B2A347E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374CE3E032617AE085478DCC18D474B2 /* Action.swift in Sources */,
-				EC0C822D236D9B54A8D7EF510BEEFC89 /* Assertions.swift in Sources */,
-				4401994B2304B1DD6620787493A4FE0F /* Coding.swift in Sources */,
-				B690B2B7AB7EFFB22B5AC2185639883F /* DispatchingStoreType.swift in Sources */,
-				09E870BC1BB6A6B14E6432CF3B3B3624 /* Middleware.swift in Sources */,
-				921B48C80F0B04BEB171F0A421107D98 /* Reducer.swift in Sources */,
-				B14619B4E37B20BDC4F303D28D28AD24 /* ReSwift-dummy.m in Sources */,
-				BF13DB907BB75D74409CBF4E75FE6B14 /* State.swift in Sources */,
-				A768DF3DD22AE4A12E24C29FB6EB0C7D /* Store.swift in Sources */,
-				1F51EBE893CAA4A1BDEC4DB2CF6440F9 /* StoreSubscriber.swift in Sources */,
-				9C54FCD449B67CD515F38BDD2723A82B /* StoreType.swift in Sources */,
-				2D07D324138C6143F1B1CB4F0CF6850F /* Subscription.swift in Sources */,
-				F959E30BC17B9A5102CD76B5A3D5C47F /* TypeHelper.swift in Sources */,
+				A1431488141894606995E5BF940FCC03 /* SwiftLCS-dummy.m in Sources */,
+				ACDA7C37BB8F3AEF753B746D9E11BEEE /* SwiftLCS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FFA6D5A15661281CA5F61E66E6552A6 /* Sources */ = {
+		4A44EA01DBC74A91EFB0AE1D07549C49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D90770B09D0BEF2E7EACF9F317EFBD /* Pods-AuthenticaionWithRedux-dummy.m in Sources */,
+				AAAF78B693550E3CEAFCC6A37FB5282F /* Toast-Swift-dummy.m in Sources */,
+				E9CA4A0B8E7E539D2C7A4EF1D20FB6B7 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938D9E07B15C8B5799D7C4179240BFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751EF37C28C5B23CF249D356A5500BD8 /* Action.swift in Sources */,
+				D07B22B575959C242A2CA880385B880C /* Assertions.swift in Sources */,
+				6A5E2A4570C640B0E819234E58D9B0F9 /* Coding.swift in Sources */,
+				C4DC4F54B193BAE216CC0682481827F9 /* DispatchingStoreType.swift in Sources */,
+				08DF6A94C0D18237E5D40AB517EE10AC /* Middleware.swift in Sources */,
+				61E6D3AFAA026980257A767DDA891D51 /* Reducer.swift in Sources */,
+				F4061A6CA222D75BDB2BB18FCB8825F1 /* ReSwift-dummy.m in Sources */,
+				A2159907845563424ED46D40D0C4DDCE /* State.swift in Sources */,
+				5B444D09279809B8BEC7C647B042115C /* Store.swift in Sources */,
+				E2DB013BA4FB0BC992B98A888B5B6A89 /* StoreSubscriber.swift in Sources */,
+				2F9AE7FA83B46E255478E7F111180256 /* StoreType.swift in Sources */,
+				90786FCE2B1638675FCCF03B9B4934E7 /* Subscription.swift in Sources */,
+				ECE3E73FF41BBB12CFC3AE0E5FB88165 /* TypeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		069FBA5D3371ABED0FD8441571323897 /* PBXTargetDependency */ = {
+		50CBF95FB3A21AE0AE47F299193C3B25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReSwift;
-			target = C43639C165F3292A138224A99B4BCAA9 /* ReSwift */;
-			targetProxy = 461F864648E4ADC16FE12AAE4765BE20 /* PBXContainerItemProxy */;
+			target = 0D497A4190760C6464CF54B8160387A8 /* ReSwift */;
+			targetProxy = 80A47CD7D1EF9AE716BE958D088B88CD /* PBXContainerItemProxy */;
 		};
-		8CDBC9C562475F48FBCB4B8AC76BA0FA /* PBXTargetDependency */ = {
+		67ECDA5D8227C832DCE5DFE42B4DF828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 62374D62BFFA00755FDB6A56F1891F5E /* Toast-Swift */;
+			targetProxy = 9F94860DCE94A940ADFF8F5A613E913A /* PBXContainerItemProxy */;
+		};
+		B1918B1834A93CE7815237ACB4734D8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLCS;
-			target = 135B27ED01A9F13B9AE7B5E138A1CC8D /* SwiftLCS */;
-			targetProxy = C61EFAEC71F2E257195A4E02103BAD1C /* PBXContainerItemProxy */;
+			target = 79A5EF6D8A732BB06E51424E60F6A281 /* SwiftLCS */;
+			targetProxy = EAFAF93D6EA8FE8A346BBEB1F1316B2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		007F1066051A467FBEB0038594E9D7C2 /* Release */ = {
+		4B82AB23D7DE48CE5FADEF0BEF6B31E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		3CAF045E82F3EE797950CEF954917CFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CD5CCD4FC7A371FDCF3D828D3E44D21 /* ReSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
-				PRODUCT_MODULE_NAME = ReSwift;
-				PRODUCT_NAME = ReSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		722A2027E4F57E9BD61565284C71351F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C485DF2DC77A23E65DAE6F12C79445EA /* Pods-AuthenticaionWithRedux.debug.xcconfig */;
+			baseConfigurationReference = FF751374DF3A4E78BA7E868FD81B6E2A /* Pods-AuthenticaionWithRedux.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -564,7 +578,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticaionWithRedux/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux.modulemap";
@@ -575,17 +589,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		723A812FDB98236829FE5637302FB0C4 /* Debug */ = {
+		5CC43F380E1A2695F2773B4098EA4741 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519E06BD13E299305CBD667A473FD88D /* SwiftLCS.xcconfig */;
+			baseConfigurationReference = B4F4AD53037F6A0648A82DE4EB169AB1 /* SwiftLCS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -615,12 +629,10 @@
 			};
 			name = Debug;
 		};
-		965187ACAB84FFC8B8EFEDDE9E4526D6 /* Release */ = {
+		690B1278910041D29A8108DF0473E35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF751374DF3A4E78BA7E868FD81B6E2A /* Pods-AuthenticaionWithRedux.release.xcconfig */;
+			baseConfigurationReference = B4F4AD53037F6A0648A82DE4EB169AB1 /* SwiftLCS.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,20 +642,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticaionWithRedux/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLCS/SwiftLCS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLCS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwiftLCS/SwiftLCS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftLCS;
+				PRODUCT_NAME = SwiftLCS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -651,9 +662,42 @@
 			};
 			name = Release;
 		};
-		C1CD679739DFE22CD00191F1638DB31C /* Debug */ = {
+		6B38DD0614561C870E446C755829DBDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CD5CCD4FC7A371FDCF3D828D3E44D21 /* ReSwift.xcconfig */;
+			baseConfigurationReference = 124E5010327BEDD961B68547F78A56DE /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D3CC0556A117CEAD0FF9F02D512D74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0267145202A8702B28B0AE58CB7F8AC /* ReSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,15 +719,52 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A103D6E9E5359E19E8A558D83C6DC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C485DF2DC77A23E65DAE6F12C79445EA /* Pods-AuthenticaionWithRedux.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AuthenticaionWithRedux/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AuthenticaionWithRedux/Pods-AuthenticaionWithRedux.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
+		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -736,7 +817,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -747,9 +828,9 @@
 			};
 			name = Debug;
 		};
-		F8E1917AC81CA0DCA2D85EC7215DAD07 /* Release */ = {
+		8DD0A052D05CA80E68A7A61F3CEC507E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 519E06BD13E299305CBD667A473FD88D /* SwiftLCS.xcconfig */;
+			baseConfigurationReference = 124E5010327BEDD961B68547F78A56DE /* Toast-Swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -760,61 +841,160 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftLCS/SwiftLCS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftLCS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftLCS/SwiftLCS.modulemap";
-				PRODUCT_MODULE_NAME = SwiftLCS;
-				PRODUCT_NAME = SwiftLCS;
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91A3AD6912B7AAA4AAA3A784FAE7463E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0267145202A8702B28B0AE58CB7F8AC /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReSwift/ReSwift.modulemap";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FEB2D764CC648B0AF566EFA453A4AE9 /* Build configuration list for PBXNativeTarget "Pods-AuthenticaionWithRedux" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				722A2027E4F57E9BD61565284C71351F /* Debug */,
-				965187ACAB84FFC8B8EFEDDE9E4526D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E246FC26AF4A9832D7AA01080188D618 /* Debug */,
-				007F1066051A467FBEB0038594E9D7C2 /* Release */,
+				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
+				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		635382E644180376552965731A5832DF /* Build configuration list for PBXNativeTarget "SwiftLCS" */ = {
+		76AC0A81D1FF9D4250F66FD4BACF2EF0 /* Build configuration list for PBXNativeTarget "SwiftLCS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				723A812FDB98236829FE5637302FB0C4 /* Debug */,
-				F8E1917AC81CA0DCA2D85EC7215DAD07 /* Release */,
+				5CC43F380E1A2695F2773B4098EA4741 /* Debug */,
+				690B1278910041D29A8108DF0473E35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8444AD587707123C1BF91C7C18695E4 /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
+		77EC72464F668AD75A5720CF5EC99267 /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1CD679739DFE22CD00191F1638DB31C /* Debug */,
-				3CAF045E82F3EE797950CEF954917CFB /* Release */,
+				91A3AD6912B7AAA4AAA3A784FAE7463E /* Debug */,
+				6D3CC0556A117CEAD0FF9F02D512D74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C63AEF93CC9B8BF240D2DD75D1C57E7 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD0A052D05CA80E68A7A61F3CEC507E /* Debug */,
+				6B38DD0614561C870E446C755829DBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9442274569D7D767D54A65194B2C8B13 /* Build configuration list for PBXNativeTarget "Pods-AuthenticaionWithRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A103D6E9E5359E19E8A558D83C6DC69 /* Debug */,
+				4B82AB23D7DE48CE5FADEF0BEF6B31E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

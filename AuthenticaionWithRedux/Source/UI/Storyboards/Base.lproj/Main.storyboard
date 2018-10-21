@@ -34,6 +34,9 @@
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <action selector="emailDidChange:" destination="dX2-GL-38P" eventType="editingChanged" id="Aoz-nG-X1v"/>
+                                            </connections>
                                         </textField>
                                     </subviews>
                                     <constraints>
@@ -60,6 +63,9 @@
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <action selector="nameDidChange:" destination="dX2-GL-38P" eventType="editingChanged" id="coW-Tf-KiJ"/>
+                                            </connections>
                                         </textField>
                                     </subviews>
                                     <constraints>
@@ -86,6 +92,9 @@
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <action selector="passwordDidChange:" destination="dX2-GL-38P" eventType="editingChanged" id="RzJ-mO-ByO"/>
+                                            </connections>
                                         </textField>
                                     </subviews>
                                     <constraints>
@@ -112,6 +121,9 @@
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
+                                            <connections>
+                                                <action selector="userNameDidChange:" destination="dX2-GL-38P" eventType="editingChanged" id="Kgd-Uo-3AK"/>
+                                            </connections>
                                         </textField>
                                     </subviews>
                                     <constraints>
@@ -366,7 +378,7 @@
                                 <rect key="frame" x="0.0" y="888" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g61-Kt-fog" id="hEv-tO-y9y">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREATE USER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jje-w5-7h4">
