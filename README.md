@@ -23,7 +23,8 @@ This is one screen authentication application and it has different ui states e.g
 ## Built With
 
 * [ReSwift](https://github.com/ReSwift/ReSwift) - ReSwift is a Redux-like implementation of the unidirectional data flow architecture in Swift.
-* [SwiftLCS](https://github.com/Frugghi/SwiftLCS) - https://github.com/Frugghi/SwiftLCS
+* [SwiftLCS](https://github.com/Frugghi/SwiftLCS) - Swift implementation of the longest common subsequence (LCS) algorithm.
+
 * [Toast-Swift](https://github.com/scalessec/Toast-Swift) - A Swift extension that adds toast notifications to the UIView object class.
 
 
